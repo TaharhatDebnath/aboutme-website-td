@@ -3,47 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tharhat Debnath - Personal Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Tharhat Debnath - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+        h1, h2 {
+            margin: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            list-style-type: none;
+            margin-bottom: 5px;
+        }
+        .category {
+            font-weight: bold;
+            margin-bottom: 5px;
+            transition: color 0.3s ease-in-out;
+        }
+        .category:hover {
+            color: #007bff;
+        }
+        .explanation {
+            margin-left: 20px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Personal Website</h1>
-    </header>
-    <main>
-        <section id="about-me" class="category">
-            <h2>About Me</h2>
-            <p>I'm passionate about technology, AI, building computers, and enjoying outdoor activities like riding the TTC to downtown and bike riding on sunny days.</p>
-        </section>
-        <section id="tech" class="category">
-            <h2>Tech</h2>
-            <p>Technology has always fascinated me because of its potential to improve lives and drive innovation.</p>
-            <img src="tech.jpg" alt="Tech">
-        </section>
-        <section id="ai" class="category">
-            <h2>Artificial Intelligence</h2>
-            <p>The field of AI is incredibly exciting to me because of its ability to solve complex problems and simulate human intelligence.</p>
-            <img src="ai.jpg" alt="AI">
-        </section>
-        <section id="computers" class="category">
-            <h2>Building Computers</h2>
-            <p>I love building computers because it allows me to customize and optimize hardware to suit specific needs.</p>
-            <img src="computer.jpg" alt="Building Computers">
-        </section>
-        <section id="ttc" class="category">
-            <h2>Riding TTC</h2>
-            <p>Exploring downtown Toronto by riding the TTC is one of my favorite ways to experience the city's vibrant atmosphere.</p>
-            <img src="ttc.jpg" alt="Riding TTC">
-        </section>
-        <section id="bike" class="category">
-            <h2>Bike Riding</h2>
-            <p>Bike riding on sunny days allows me to enjoy the outdoors, stay active, and appreciate the beauty of nature.</p>
-            <img src="bike.jpg" alt="Bike Riding">
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Tharhat Debnath. All rights reserved.</p>
-    </footer>
+
+<header>
+    <h1>Tharhat Debnath</h1>
+    <h2>Tech Enthusiast & PC Builder</h2>
+</header>
+
+<div class="container">
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Hi there! I'm Tharhat Debnath, a tech enthusiast with a passion for building PCs and exploring the latest in AI and technology. When I'm not tinkering with gadgets, you can find me wandering the streets of Toronto or enjoying a sunny day outdoors.
+        </p>
+    </section>
+
+    <section>
+        <h2>Interests</h2>
+        <div class="category">Technology</div>
+        <ul>
+            <li>Artificial Intelligence<span class="explanation"> - I'm fascinated by the potential of AI to transform industries and improve lives. Exploring its applications is both exciting and intellectually stimulating.</span></li>
+            <li>PC Building<span class="explanation"> - Building PCs allows me to unleash my creativity and problem-solving skills. Plus, there's nothing quite like the satisfaction of booting up a system you've assembled yourself.</span></li>
+        </ul>
+        <div class="category">Activities</div>
+        <ul>
+            <li>Exploring Toronto<span class="explanation"> - Toronto is a vibrant city with so much to see and experience. Exploring its neighborhoods, parks, and cultural sites is a constant source of inspiration and adventure.</span></li>
+            <li>Outdoor Activities<span class="explanation"> - I love being outdoors, whether it's going for a hike, biking along the waterfront, or simply enjoying a picnic in the park. Being in nature helps me recharge and stay connected to the world around me.</span></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <p>
+            Feel free to reach out to me via email at <a href="mailto:your.email@example.com">your.email@example.com</a>.
+        </p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Tharhat Debnath | Personal Webpage</p>
+</footer>
+
 </body>
 </html>
