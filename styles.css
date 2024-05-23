@@ -1,64 +1,107 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
-    transition: background-color 0.5s ease;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tharhat Debnath - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+        h1, h2 {
+            margin: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            list-style-type: none;
+            margin-bottom: 5px;
+        }
+        .category {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .explanation {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
+<header>
+    <h1>Tharhat Debnath</h1>
+    <h2>Tech Enthusiast & PC Builder</h2>
+</header>
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+<div class="container">
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Hi there! I'm Tharhat Debnath, a tech enthusiast with a passion for building PCs and exploring the latest in AI and technology. When I'm not tinkering with gadgets, you can find me wandering the streets of Toronto or enjoying a sunny day outdoors.
+        </p>
+    </section>
 
-.category {
-    max-width: 300px;
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-}
+    <section>
+        <h2>Interests</h2>
+        <div class="category">Technology</div>
+        <ul>
+            <li>Artificial Intelligence<span class="explanation"> - I'm fascinated by the potential of AI to transform industries and improve lives. Exploring its applications is both exciting and intellectually stimulating.</span></li>
+            <li>PC Building<span class="explanation"> - Building PCs allows me to unleash my creativity and problem-solving skills. Plus, there's nothing quite like the satisfaction of booting up a system you've assembled yourself.</span></li>
+        </ul>
+        <div class="category">Activities</div>
+        <ul>
+            <li>Exploring Toronto<span class="explanation"> - Toronto is a vibrant city with so much to see and experience. Exploring its neighborhoods, parks, and cultural sites is a constant source of inspiration and adventure.</span></li>
+            <li>Outdoor Activities<span class="explanation"> - I love being outdoors, whether it's going for a hike, biking along the waterfront, or simply enjoying a picnic in the park. Being in nature helps me recharge and stay connected to the world around me.</span></li>
+        </ul>
+    </section>
 
-.category:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
+    <section>
+        <h2>Contact Me</h2>
+        <p>
+            Feel free to reach out to me via email at <a href="mailto:your.email@example.com">your.email@example.com</a>.
+        </p>
+    </section>
+</div>
 
-.category h2 {
-    color: #333;
-    transition: color 0.3s ease;
-}
+<footer>
+    <p>&copy; 2024 Tharhat Debnath | Personal Webpage</p>
+</footer>
 
-.category p {
-    color: #666;
-    transition: color 0.3s ease;
-}
-
-.category img {
-    width: 100%;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-}
-
-.category:hover img {
-    transform: scale(1.1);
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
+</body>
+</html>
